@@ -1,0 +1,6 @@
+{
+  "name": "SHADOW STORE - متجر شحن الألعاب الرقمية في موريتانيا",
+  "description": "SHADOW STORE is Mauritania's premier digital gaming recharge store for Free Fire, PUBG Mobile, eFootball, and EA SPORTS FC with Bankily, Masrivi, and Sedad payment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

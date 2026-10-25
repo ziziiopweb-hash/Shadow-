@@ -1,0 +1,650 @@
+{
+  "users": [
+    {
+      "id": "admin_shadow_001",
+      "email": "admin@shadowstore.mr",
+      "fullName": "مدير متجر شادو ستور",
+      "phone": "31520844",
+      "role": "admin",
+      "languagePreference": "ar",
+      "createdAt": "2026-10-25T16:00:47.385Z",
+      "passwordHash": "9d8a816a0988effc6ff92bace605203b6639dd2c30af2e393b699366f7ebce9513d9877b98edb8cf808213103a1416d6f9607c34a99b33c1f1398da48c0b3065",
+      "salt": "82db2cbc648abc552b179ab77983dd80"
+    },
+    {
+      "id": "usr_fb5137a607d8",
+      "email": "jackwilliam2026a@gmail.com",
+      "role": "customer",
+      "savedPlayerIds": {
+        "free_fire": "1613581595"
+      },
+      "createdAt": "2026-10-25T16:07:44.361Z",
+      "passwordHash": "375a1fe83cd4527320b1fb5b548b3c76788e3961bf86f564f76234dab955f9d35344a056c8f0e8b5e208d14673c4686c314a2d6e3106a0cb8eadd2465853d6ec",
+      "salt": "5a20a2a3c540ead5ee1307f51e8dee6c"
+    }
+  ],
+  "products": [
+    {
+      "id": "ff-dia-110",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "110 جوهرة فري فاير",
+      "nameEn": "110 Free Fire Diamonds",
+      "descriptionAr": "شحن فوري ومباشر عن طريق معرف اللاعب (Player ID) فقط بدون كلمة سر.",
+      "descriptionEn": "Instant top-up via Player ID only. Safe and password-free.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 50,
+      "originalPriceMru": 60,
+      "amount": 110,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "الأكثر طلباً",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-220",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "220 جوهرة فري فاير",
+      "nameEn": "220 Free Fire Diamonds",
+      "descriptionAr": "شحن رسمي سريع عبر المعرف ID.",
+      "descriptionEn": "Official fast top-up via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 100,
+      "originalPriceMru": 120,
+      "amount": 220,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-330",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "330 جوهرة فري فاير",
+      "nameEn": "330 Free Fire Diamonds",
+      "descriptionAr": "شحن رسمي سريع عبر المعرف ID.",
+      "descriptionEn": "Official fast top-up via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 150,
+      "originalPriceMru": 180,
+      "amount": 330,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-440",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "440 جوهرة فري فاير",
+      "nameEn": "440 Free Fire Diamonds",
+      "descriptionAr": "شحن رسمي سريع عبر المعرف ID.",
+      "descriptionEn": "Official fast top-up via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 200,
+      "originalPriceMru": 240,
+      "amount": 440,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-1166",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "1166 جوهرة فري فاير",
+      "nameEn": "1166 Free Fire Diamonds",
+      "descriptionAr": "باقة مميزة مع بونص إضافي رسمي عبر المعرف ID.",
+      "descriptionEn": "Official large diamond pack via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 500,
+      "originalPriceMru": 580,
+      "amount": 1166,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "عرض توفيري",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-1386",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "1386 جوهرة فري فاير",
+      "nameEn": "1386 Free Fire Diamonds",
+      "descriptionAr": "شحن فوري عبر المعرف ID.",
+      "descriptionEn": "Instant recharge via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 600,
+      "originalPriceMru": 690,
+      "amount": 1386,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-1606",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "1606 جوهرة فري فاير",
+      "nameEn": "1606 Free Fire Diamonds",
+      "descriptionAr": "شحن رسمي عبر المعرف ID.",
+      "descriptionEn": "Official recharge via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 700,
+      "originalPriceMru": 800,
+      "amount": 1606,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-dia-2368",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "2368 جوهرة فري فاير",
+      "nameEn": "2368 Free Fire Diamonds",
+      "descriptionAr": "الباقة الكبرى للأساطير عبر المعرف ID.",
+      "descriptionEn": "Mega pack for esports players via Player ID.",
+      "type": "diamonds",
+      "deliveryMethod": "player_id",
+      "priceMru": 1000,
+      "originalPriceMru": 1180,
+      "amount": 2368,
+      "unit": "جوهرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "باقة المحترفين",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-mem-week-id",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "عضوية فري فاير أسبوعية (عبر الـ ID)",
+      "nameEn": "Free Fire Weekly Membership (via ID)",
+      "descriptionAr": "تفعيل العضوية الأسبوعية الرسمية مباشرة عن طريق الآيدي فقط.",
+      "descriptionEn": "Official weekly membership activated via Player ID only.",
+      "type": "membership",
+      "deliveryMethod": "player_id",
+      "priceMru": 120,
+      "originalPriceMru": 140,
+      "amount": "أسبوعية ID",
+      "unit": "عضوية",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "عبر المعرف",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-mem-month-id",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "عضوية فري فاير شهرية (عبر الـ ID)",
+      "nameEn": "Free Fire Monthly Membership (via ID)",
+      "descriptionAr": "تفعيل العضوية الشهرية الرسمية المميزة عن طريق الآيدي ID فقط.",
+      "descriptionEn": "Official monthly membership activated via Player ID only.",
+      "type": "membership",
+      "deliveryMethod": "player_id",
+      "priceMru": 450,
+      "originalPriceMru": 500,
+      "amount": "شهرية ID",
+      "unit": "عضوية",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "عبر المعرف",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-mem-week-acc",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "عضوية فري فاير أسبوعية (عبر الحساب)",
+      "nameEn": "Free Fire Weekly Membership (via Account)",
+      "descriptionAr": "تفعيل اقتصادي عبر تسجيل الدخول الرسمي المشفر. يلزم إدخال بيانات الدخول مع رموز النسخ الاحتياطي.",
+      "descriptionEn": "Economical activation via secure account login. Requires login info and 2FA backup codes.",
+      "type": "membership",
+      "deliveryMethod": "account_login",
+      "priceMru": 100,
+      "originalPriceMru": 120,
+      "amount": "أسبوعية حساب",
+      "unit": "عضوية",
+      "isAvailable": true,
+      "requiredFields": [
+        "account_email",
+        "account_password"
+      ],
+      "badge": "توفير أكبر",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-mem-month-acc",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "عضوية فري فاير شهرية (عبر الحساب)",
+      "nameEn": "Free Fire Monthly Membership (via Account)",
+      "descriptionAr": "تفعيل اقتصادي عبر تسجيل الدخول الرسمي المشفر للحساب.",
+      "descriptionEn": "Economical activation via secure account login for 30 days.",
+      "type": "membership",
+      "deliveryMethod": "account_login",
+      "priceMru": 400,
+      "originalPriceMru": 450,
+      "amount": "شهرية حساب",
+      "unit": "عضوية",
+      "isAvailable": true,
+      "requiredFields": [
+        "account_email",
+        "account_password"
+      ],
+      "badge": "توفير أكبر",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "ff-booyah-pass",
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "بطاقة بويا باس (Booyah Pass)",
+      "nameEn": "Free Fire Booyah Pass",
+      "descriptionAr": "فتح تذكرة بويا باس للموسم الحالي لفتح جميع الجوائز والسكينات الحصرية.",
+      "descriptionEn": "Unlock current season Booyah Pass for exclusive skins and rewards.",
+      "type": "battle_pass",
+      "deliveryMethod": "player_id",
+      "priceMru": 150,
+      "originalPriceMru": 180,
+      "amount": "الموسم الحالي",
+      "unit": "تذكرة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "موسمي",
+      "image": "/assets/images/free_fire_official_user.jpg"
+    },
+    {
+      "id": "pubg-uc-60",
+      "gameId": "pubg_mobile",
+      "category": "pubg_mobile",
+      "nameAr": "60 شدة ببجي موبايل (UC)",
+      "nameEn": "60 PUBG Mobile UC",
+      "descriptionAr": "شحن رسمي مباشر عن طريق الآيدي ID.",
+      "descriptionEn": "Direct official UC recharge via Player ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 45,
+      "originalPriceMru": 55,
+      "amount": 60,
+      "unit": "شدة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/src/assets/images/pubg_mobile_showcase_1792943358747.jpg"
+    },
+    {
+      "id": "pubg-uc-325",
+      "gameId": "pubg_mobile",
+      "category": "pubg_mobile",
+      "nameAr": "325 شدة ببجي موبايل (UC)",
+      "nameEn": "325 PUBG Mobile UC",
+      "descriptionAr": "شحن رسمي مباشر عبر المعرف ID.",
+      "descriptionEn": "Direct official UC recharge via Player ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 220,
+      "originalPriceMru": 250,
+      "amount": 325,
+      "unit": "شدة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "شائع",
+      "image": "/src/assets/images/pubg_mobile_showcase_1792943358747.jpg"
+    },
+    {
+      "id": "pubg-uc-660",
+      "gameId": "pubg_mobile",
+      "category": "pubg_mobile",
+      "nameAr": "660 شدة ببجي موبايل (UC)",
+      "nameEn": "660 PUBG Mobile UC",
+      "descriptionAr": "شحن الرويال باس وتفعيل التذكرة الموسمية.",
+      "descriptionEn": "Royale Pass package via Player ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 430,
+      "originalPriceMru": 480,
+      "amount": 660,
+      "unit": "شدة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "رويال باس",
+      "image": "/src/assets/images/pubg_mobile_showcase_1792943358747.jpg"
+    },
+    {
+      "id": "pubg-uc-1800",
+      "gameId": "pubg_mobile",
+      "category": "pubg_mobile",
+      "nameAr": "1800 شدة ببجي موبايل (UC)",
+      "nameEn": "1800 PUBG Mobile UC",
+      "descriptionAr": "باقة الشدات الكبيرة للمتفرغين والحسابات المطورة.",
+      "descriptionEn": "Large tactical UC pack via Player ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 1150,
+      "originalPriceMru": 1300,
+      "amount": 1800,
+      "unit": "شدة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/src/assets/images/pubg_mobile_showcase_1792943358747.jpg"
+    },
+    {
+      "id": "efb-coins-130",
+      "gameId": "efootball",
+      "category": "efootball",
+      "nameAr": "130 كوينز إي فوتبول (eFootball)",
+      "nameEn": "130 eFootball Coins",
+      "descriptionAr": "شحن مباشر عبر Konami ID أو المعرف.",
+      "descriptionEn": "Direct coins top-up for eFootball via ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 55,
+      "originalPriceMru": 65,
+      "amount": 130,
+      "unit": "كوينز",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/efootball_official_user.jpg"
+    },
+    {
+      "id": "efb-coins-550",
+      "gameId": "efootball",
+      "category": "efootball",
+      "nameAr": "550 كوينز إي فوتبول (eFootball)",
+      "nameEn": "550 eFootball Coins",
+      "descriptionAr": "شحن حزم الباكات واللاعبين الإبيك المميزين.",
+      "descriptionEn": "Epic packs coins top-up via ID.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 230,
+      "originalPriceMru": 260,
+      "amount": 550,
+      "unit": "كوينز",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "باك إبيك",
+      "image": "/assets/images/efootball_official_user.jpg"
+    },
+    {
+      "id": "efb-coins-1050",
+      "gameId": "efootball",
+      "category": "efootball",
+      "nameAr": "1050 كوينز إي فوتبول (eFootball)",
+      "nameEn": "1050 eFootball Coins",
+      "descriptionAr": "باقة كبرى لتطوير تشكيلة الفريق الأسطورية.",
+      "descriptionEn": "Mega coin pack for ultimate dream team squad.",
+      "type": "coins",
+      "deliveryMethod": "player_id",
+      "priceMru": 440,
+      "originalPriceMru": 500,
+      "amount": 1050,
+      "unit": "كوينز",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/assets/images/efootball_official_user.jpg"
+    },
+    {
+      "id": "eafc-points-500",
+      "gameId": "ea_sports_fc",
+      "category": "ea_sports_fc",
+      "nameAr": "500 نقطة FC Mobile Points",
+      "nameEn": "500 FC Mobile Points",
+      "descriptionAr": "نقاط EA SPORTS FC لشراء التذاكر والباكات.",
+      "descriptionEn": "Points for FC packs and seasonal events.",
+      "type": "points",
+      "deliveryMethod": "player_id",
+      "priceMru": 75,
+      "originalPriceMru": 90,
+      "amount": 500,
+      "unit": "نقطة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "image": "/src/assets/images/ea_sports_fc_showcase_1792944226485.jpg"
+    },
+    {
+      "id": "eafc-points-1050",
+      "gameId": "ea_sports_fc",
+      "category": "ea_sports_fc",
+      "nameAr": "1050 نقطة FC Mobile Points",
+      "nameEn": "1050 FC Mobile Points",
+      "descriptionAr": "شحن رسمي سريع لحسابك في EA FC Mobile.",
+      "descriptionEn": "Official FC Points package via UID.",
+      "type": "points",
+      "deliveryMethod": "player_id",
+      "priceMru": 150,
+      "originalPriceMru": 175,
+      "amount": 1050,
+      "unit": "نقطة",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "الأكثر طلباً",
+      "image": "/src/assets/images/ea_sports_fc_showcase_1792944226485.jpg"
+    },
+    {
+      "id": "sub-discord-nitro",
+      "gameId": "subscriptions",
+      "category": "subscriptions",
+      "nameAr": "اشتراك ديسكورد نيترو قياسي (1 شهر)",
+      "nameEn": "Discord Nitro Standard (1 Month)",
+      "descriptionAr": "كود تفعيل اشتراك ديسكورد نيترو مع البوستات والمميزات الخاصة.",
+      "descriptionEn": "Discord Nitro 1 month digital gift code with 2 server boosts.",
+      "type": "subscription",
+      "deliveryMethod": "player_id",
+      "priceMru": 380,
+      "originalPriceMru": 420,
+      "amount": "1 شهر",
+      "unit": "اشتراك",
+      "isAvailable": true,
+      "requiredFields": [
+        "player_id"
+      ],
+      "badge": "كود رقمي",
+      "image": "/src/assets/images/hero_shadow_store_1792943357075.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_61196755d324b291",
+      "orderRef": "SHW-504706",
+      "verificationPin": "2099",
+      "userId": "usr_fb5137a607d8",
+      "customerName": "A7med",
+      "customerPhone": "31406804",
+      "playerId": "1613581595",
+      "deliveryMethod": "player_id",
+      "items": [
+        {
+          "productId": "ff-dia-110",
+          "productNameAr": "110 جوهرة فري فاير",
+          "productNameEn": "110 Free Fire Diamonds",
+          "amount": 110,
+          "unit": "جوهرة",
+          "deliveryMethod": "player_id",
+          "priceMru": 50,
+          "quantity": 1
+        }
+      ],
+      "totalMru": 50,
+      "paymentMethod": "masrivi",
+      "paymentPhone": "31406804",
+      "paymentTxRef": "",
+      "paymentProofUrl": "data:image/jpeg;base64,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AAwDAQACAAMAAAAhAAY8gAEAAAAAAAAAAAAAAAAAAAIAIEIEEIAAAAokA4IgAAAAAAAAAAAAAAAAAggU0AAEoMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQgAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD14AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMMMMMMMMMMMMMMMMMMMMMMMMMMMAAAAAAIggAAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAAEYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkIAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQkAA8AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA8AA8AAAAAAAAAAAAcwo040EkAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAQwgYQAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAAAAAwcAMIMQEA4EYc0IQAAAAAAAA8AA8AAAAAAAAgAQwgAwgAAwQAwAgAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAAAAAAAAwUsoMUwYokIAAAAAAAAAA8AA8AAAAAAAAAAAAAQAAAgAgAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAAAIAAAAAAAAAAAAAAAAAAAAAAABAAA8AA8AAYgAwIAAAAAAAAAAAAAAAAAAFAgzDAA8AA8AAIAAAIAAAAAEAIIMAEEAAAAAUBBBHAA8AA8AAAQoAAAAAAAQM04oA4cQAAAATBBBQBA8AA8AAAAAAAAAAAAAAAAAAAAAAAAACKBBDAA8AA8AAAwwgAAAAAAAAAAAAAAAAAAAATQQBAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AA8AAwIEAAAAAAAAAAAAAckcM4QgMgsMIAA8AA8AAQQwgAAAAAAAAAAAQQwAwgQQgggQQAA8AA8AAAkMQEQYkMAAAAAAAAAAAgAUIMAsIAA8AA8AAwo0gAQQEgAAAAAAAAAAQoQwQwgQgAA8AA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAkIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEYAAEwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEwIAAAksk88888888888888888888888888YcYAAAAAQwwwwwwwwwwwwwwwwwwwwwwwwwwwwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEs0IUwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQwwwwwwwwwwwwgAAAAAAAAAAA/8QAAv/aAAwDAQACAAMAAAAQAAE8kIEIAAAAAAAAAAAAAAAAAIEIAAIIIEAAAAc4M88oAAAAAAAAAAAAAAAAAgEUcUos44AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEscM8MIAAAAAAAAAAAAAAAAAAAAAAAAAAAEc8888888IAAAAAAAAAAAAAAAAAAAAAAAAAI8888888888EAAAAAAAAAAAAAAAAAAAAAAAEc8888888888sIAAAAAAAAAAAAAAAAAAAAAAM888888888888sAAAAAAAAAAAAAAAAAAAAAAc8888888888888AAAAAAAAAAAAAAAAAAAAAA8888888g+88888AAAAAAAAAAAAAAAAAAAAAA08888umF888884AAAAAAAAAAAAAAAAAAAAAA88888888888884AAAAAAAAAAAAAAAAAAAAAAY888888888888kAAAAAAAAAAAAAAAAAAAAAAU888888888888oAAAAAAAAAAAAAAAAAAAAAAAQ8888888888wAAAAAAAAAAAAAAAAAAAAAAAAA0888888884AAAAAAAAAAAAAAAAAAAAAAAAAAAw888880wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMMMMMMMMMMMMMMMMMMMMMMMMMMMAAAAAAMMs888888888888888888888888888MIAAAAU888888888888888888888888888888oAAAY08888888888888888888888888888884kAAo88888888888888888488888888888888UAAo888888888888EcQsscsc888888888888UAAo888888888888YI8UIssY888888888888UAAo88888888888888888888888888888888UAAo88888888888888888888888888888888UAAo88888888888888888888888888888888UAAo8888888ocw4Iocgc8Uc488IIc8888888UAAo88888888MsssMsscccssM8scc8888888UAAo88888888888888888888888888888888UAAo88888888888EgMMksk4IAU8888888888UAAo8888888888scscMMcc8M888888888888UAAo88888888888888888888888888888888UAAo88888888888888888888888888888888UAAo88888888888888888888888888821888UAAo88wss888888888888888888884UdOX88UAAo880888088888w0484440888886999688UAAo88888888MMM84Y0kUAM4sMMM85999598UAAo8808880888888888888888888s399v88UAAo888cc888888888888888888888sv8AffPFAAKPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPFAAKPPENPNPPPPPPPPPPPPOBPMMPBJONOMPPFAAKPPHHILPPPPPPPPPPPLDHPLLPLLHDPDPPFAAKPPPNE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",
+      "status": "awaiting_payment",
+      "customerNotes": "",
+      "createdAt": "2026-10-25T16:10:37.909Z",
+      "updatedAt": "2026-10-25T16:10:37.909Z"
+    }
+  ],
+  "orderHistory": [
+    {
+      "id": "hist_3b11d8d63213",
+      "orderId": "ord_61196755d324b291",
+      "orderRef": "SHW-504706",
+      "previousStatus": null,
+      "newStatus": "awaiting_payment",
+      "changedBy": "customer",
+      "reason": "إنشاء الطلب وتقديم تفاصيل الدفع",
+      "createdAt": "2026-10-25T16:10:37.909Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-001",
+      "titleAr": "تنبيه شحن فري فاير وببجي عبر بنكيلي ومصريفي وسداد",
+      "titleEn": "Official Notice: Instant Bankily, Masrivi & Sedad Payments",
+      "contentAr": "أهلاً بكم في متجر SHADOW STORE! رقم الدفع الرسمي لجميع التحويلات هو 31520844. يرجى إرفاق وصل التحويل أو رقم العملية لتنفيذ طلبك في أسرع وقت.",
+      "contentEn": "Welcome to SHADOW STORE! The official payment number is 31520844. Attach your transfer reference or proof for swift fulfillment.",
+      "bannerType": "info",
+      "active": true,
+      "createdAt": "2026-10-25T16:00:47.386Z"
+    }
+  ],
+  "supportTickets": [],
+  "auditLogs": [
+    {
+      "id": "audit_init",
+      "actorId": "system",
+      "actorEmail": "system@shadowstore.mr",
+      "action": "STORE_INITIALIZED",
+      "entityType": "settings",
+      "entityId": "store",
+      "details": "Store initialized with official Mauritanian gaming catalog & Free Fire exact prices.",
+      "createdAt": "2026-10-25T16:00:47.386Z"
+    }
+  ],
+  "settings": {
+    "paymentNumber": "31520844",
+    "whatsappNumber": "+22231520844",
+    "businessHoursAr": "يومياً من 09:00 صباحاً حتى 02:00 فجراً بتوقيت موريتانيا",
+    "businessHoursEn": "Daily from 09:00 AM to 02:00 AM GMT (Mauritania)",
+    "bankilyActive": true,
+    "masriviActive": true,
+    "sedadActive": true,
+    "storeOpen": true,
+    "minOrderMru": 45,
+    "autoFulfillmentEnabled": false
+  },
+  "gameArtworks": [
+    {
+      "gameId": "free_fire",
+      "category": "free_fire",
+      "nameAr": "فري فاير (Free Fire)",
+      "nameEn": "Free Fire",
+      "imageUrl": "/assets/images/free_fire_official_user.jpg",
+      "bannerUrl": "/assets/images/free_fire_official_user.jpg",
+      "genre": "Battle Royale / Action",
+      "accentColor": "#f97316",
+      "descriptionAr": "أبطال باتل رويال، أزياء تكتيكية، مشاهد حماسية مع خلفية تركوازية ولمسات برتقالية نارية.",
+      "descriptionEn": "Battle royale heroes, tactical outfits, dramatic action scenes with teal-blue and fiery orange accents.",
+      "updatedAt": "2026-10-25T16:13:46.920Z"
+    },
+    {
+      "gameId": "pubg_mobile",
+      "category": "pubg_mobile",
+      "nameAr": "ببجي موبايل (PUBG Mobile)",
+      "nameEn": "PUBG Mobile",
+      "imageUrl": "/src/assets/images/pubg_tactical_landscape_1792944226624.jpg",
+      "bannerUrl": "/src/assets/images/pubg_mobile_showcase_1792943358747.jpg",
+      "genre": "Tactical Battle Royale",
+      "accentColor": "#eab308",
+      "descriptionAr": "بيئات قتالية تكتيكية واقعية، عتاد عسكري محترف، إنزال جوي بدخان أحمر ومشاهد بانورامية للجزيرة.",
+      "descriptionEn": "Realistic tactical battle royale environments, professional military gear, and cinematic island landscapes.",
+      "updatedAt": "2026-10-25T16:13:46.920Z"
+    },
+    {
+      "gameId": "efootball",
+      "category": "efootball",
+      "nameAr": "إي فوتبول بيس (eFootball PES)",
+      "nameEn": "eFootball PES",
+      "imageUrl": "/assets/images/efootball_official_user.jpg",
+      "bannerUrl": "/assets/images/efootball_official_user.jpg",
+      "genre": "Football / Sports Simulation",
+      "accentColor": "#06b6d4",
+      "descriptionAr": "لاعبو كرة قدم بقمصان عصرية، ملاعب عالمية كبرى، رسومات رياضية باللون السماوي والماجنتا والأزرق.",
+      "descriptionEn": "Football players, grand stadiums, footballs, and vibrant cyan, magenta, and deep blue sports graphics.",
+      "updatedAt": "2026-10-25T16:13:46.920Z"
+    },
+    {
+      "gameId": "ea_sports_fc",
+      "category": "ea_sports_fc",
+      "nameAr": "إي إيه سبورتس إف سي (EA SPORTS FC)",
+      "nameEn": "EA SPORTS FC Mobile",
+      "imageUrl": "/src/assets/images/ea_sports_fc_showcase_1792944226485.jpg",
+      "genre": "Football / Sports Simulation",
+      "accentColor": "#10b981",
+      "descriptionAr": "ملاعب كرة قدم فخمة ممتلئة بالجماهير، لاعبون محترفون، وجماليات التصوير الرياضي الواقعي.",
+      "descriptionEn": "Premium football stadiums, world-class players, and realistic sports photography aesthetics.",
+      "updatedAt": "2026-10-25T16:13:46.920Z"
+    },
+    {
+      "gameId": "subscriptions",
+      "category": "subscriptions",
+      "nameAr": "الاشتراكات والبطاقات الرقمية",
+      "nameEn": "Digital Subscriptions & Cards",
+      "imageUrl": "/src/assets/images/digital_cards_showcase_1792944226065.jpg",
+      "genre": "Digital Gift Cards & Subscriptions",
+      "accentColor": "#8b5cf6",
+      "descriptionAr": "بطاقات هدايا رقمية فاخرة، اشتراكات ألعاب بأشكال ثلاثية الأبعاد ولمعان هولوجرافي مميز.",
+      "descriptionEn": "Premium luxury digital gift cards and gaming vouchers with holographic metallic luster.",
+      "updatedAt": "2026-10-25T16:13:46.920Z"
+    }
+  ]
+}
